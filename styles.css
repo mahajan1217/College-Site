@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  position: relative;
+}
+
+body {
+  overflow-y: auto;
+  min-height: 100vh;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+footer {
+  background: #f1f1f1;
+  width: 100%;
+  padding: 16px 0px;
+  color: #999;
+  vertical-align: bottom;
+  margin-top: 40px;
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  background: #999;
+  margin: 20px 0px;
+}
+
+.content {
+  padding: 20px 0px;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("my.jpg");
+  height: 73vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+  
+  .hero-subheading {
+    color: white;
+  
+  }
+  .hero-input {
+    width:50%;
+    border-radius: 5px;
+  }
+  
+  .nav-link {
+    margin-right: 36px;
+  }
+  .flip-card {
+    padding-top: 10px;
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    perspective: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .flip-text{
+      text-align: center;
+  }
+  
+  .flip-text1{
+   font-size:x-large;
+   text-align: center;  
+   padding-top: 100px;
+}
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:#D6EBAD;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #46A4D1;
+    color: white;
+    text-align: left;
+    transform: rotateY(180deg);
+  }
+.mine {
+    padding-top:40%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktops phones: */
+  #reservation {
+    width: 400px;
+    position: fixed;
+  }
+}
