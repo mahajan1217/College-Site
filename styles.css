@@ -77,8 +77,8 @@ footer {
 
 }
   .flip-text2{
-    text-align: center;
-    font-size: small;
+    text-align: center !important;
+    font-size: small !important;
     
 }
   
