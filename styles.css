@@ -1,4 +1,4 @@
-* {
+* * {
   margin: 0px;
   padding: 0px;
 }
@@ -73,12 +73,12 @@ footer {
   }
   .flip-text{
       text-align: center;
+      
   }
-
-}
   .flip-text2{
-    font-size:small !important;
-    text-align:center !important;
+    text-align: center;
+    font-size: small;
+    
 }
   
   .flip-text1{
@@ -132,3 +132,4 @@ footer {
     position: fixed;
   }
 }
+
