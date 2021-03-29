@@ -121,6 +121,18 @@ footer {
     padding-top:40%;
 }
 
+table, th, td {
+  border: 1px solid black;
+  text-align:center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}
+
+
 
 @media only screen and (min-width: 768px) {
   /* For desktops phones: */
